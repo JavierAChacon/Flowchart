@@ -1,0 +1,81 @@
+{
+  "nombre": "Ing. Informática",
+  "pensum": [
+    {
+      "semestre": "I",
+      "materias": [
+        {
+          "id": "412101",
+          "nombre": "Introducción a Ing. Informática",
+          "unidades": 1,
+          "prelacion": []
+        },
+        {
+          "id": "415102",
+          "nombre": "Computación I",
+          "unidades": 1,
+          "prelacion": []
+        },
+        {
+          "id": "834102",
+          "nombre": "Matemática Discreta",
+          "unidades": 3,
+          "prelacion": []
+        },
+        {
+          "id": "826101",
+          "nombre": "Matemática I",
+          "unidades": 4,
+          "prelacion": []
+        },
+        {
+          "id": "1033101",
+          "nombre": "Lenguaje y Comunicación",
+          "unidades": 2,
+          "prelacion": []
+        },
+        {
+          "id": "1032109T",
+          "nombre": "Efectividad Personal",
+          "unidades": 1,
+          "prelacion": []
+        }
+      ]
+    },
+    {
+      "semestre": "II",
+      "materias": [
+        {
+          "id": "416202",
+          "nombre": "Programación I",
+          "unidades": 4,
+          "prelacion": ["834102", "415102"]
+        },
+        {
+          "id": "914201",
+          "nombre": "Química General I",
+          "unidades": 3,
+          "prelacion": []
+        },
+        {
+          "id": "826201",
+          "nombre": "Matemática II",
+          "unidades": 4,
+          "prelacion": ["826101"]
+        },
+        {
+          "id": "846203",
+          "nombre": "Física I",
+          "unidades": 4,
+          "prelacion": ["826101"]
+        },
+        {
+          "id": "842204L",
+          "nombre": "Laboratorio de Física I",
+          "unidades": 1,
+          "prelacion": ["846203"]
+        }
+      ]
+    }
+  ]
+}
